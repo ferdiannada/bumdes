@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hus</title>
+    <title>Real Estate</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -99,8 +99,8 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text">
-                        <h3>About us</h3>
-                        <p> <a href="index.html">Home</a> / About</p>
+                        <h3>Facilities</h3>
+                        <p> <a href="index.html">Home</a> / Facilities</p>
                     </div>
                 </div>
             </div>
@@ -108,57 +108,57 @@
     </div>
     <!--/ bradcam_area  -->
 
-    <!-- about_area_start  -->
-    <div class="about_area">
+
+    <!-- our_facilitics_area_start  -->
+    <div class="our_facilitics_area facilites_page">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="about_exp d-flex align-items-center justify-content-center">
-                        <div class="about_exp_inner_upper d-flex align-items-center justify-content-center">
-                            <div class="about_exp_inner text-center">
-                                <span>10</span>
-                                <p>Years of Exprince</p>
-                            </div>
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-80">
+                        <h3>Our Facilities</h3>
+                        <div class="devider">
+                            <span></span>
+                            <span></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about_info pl-70">
-                        <div class="section_title mb-55">
-                            <h3>We are Hus <br>
-                                <span>Realestate Company</span></h3>
-                            <div class="devider">
-                                <span></span>
-                                <span></span>
-                            </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature text-center">
+                        <div class="icon">
+                            <i class="flaticon-sketch"></i>
                         </div>
-                        <div class="info_inner">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Consectetur adipisicing elit, sed do</li>
-                                <li>Eiusmod tempor incididunt ut labore</li>
-                                <li>Ad minim veniam, quis nostrud.</li>
-                            </ul>
-                            <div class="customer_info d-flex">
-                                <div class="single_info d-flex align-items-baseline">
-                                    <span class="counter">120</span>
-                                    <p>Buildings</p>
-                                </div>
-                                <div class="single_info d-flex align-items-baseline">
-                                    <span ><span class="counter">500</span>+</span>
-                                    <p>Clients</p>
-                                </div>
-                            </div>
+                        <h3>Planning Stage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature text-center">
+                        <div class="icon">
+                            <i class="flaticon-hotel"></i>
                         </div>
+                        <h3>Planning Stage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature text-center">
+                        <div class="icon">
+                            <i class="flaticon-headset"></i>
+                        </div>
+                        <h3>Planning Stage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#">Learn more</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- about_area_end  -->
+    <!-- our_facilitics_area_end  -->
     
-
     <!-- appertment_area_start  -->
     <div class="appertment_area">
         <div class="appertment_active owl-carousel">
@@ -348,6 +348,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- footer_start  -->
     <footer class="footer footer_bg_1">

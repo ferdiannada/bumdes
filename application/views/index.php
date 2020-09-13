@@ -1,492 +1,688 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Industries Website Template by Colorlib</title>
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hus</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
 
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-
-    <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
 
-  </head>
-  <body>
-    
-    <header role="banner">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand " href="index.html">Industries</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav pl-md-5 ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Architectural Design</a>
-                  <a class="dropdown-item" href="services.html">Interior</a>
-                  <a class="dropdown-item" href="services.html">Building</a>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="index.html">home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="#">pages</a>
+                                            <ul class="submenu">
+                                                    <li><a href="facilites.html">Facilities</a></li>
+                                                    <li><a href="property.html">Properties</a></li>
+                                                    <li><a href="elements.html">elements</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">blog</a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                            <div class="social_wrap d-flex align-items-center justify-content-end">
+                                <div class="login_text">
+                                    <a href="#">Login</a>
+                                </div>
+                                <div class="number">
+                                    <p>Call us <a href="#">+001 325 589</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-
-          
-          </div>
+            </div>
         </div>
-      </nav>
     </header>
-    <!-- END header -->
+    <!-- header-end -->
 
-    <div class="top-shadow"></div>
-
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/hero_1.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-lg-7 text-center col-sm-12 element-animate">
-              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="https://vimeo.com/59256790" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
-              <h1 class="mb-4"><span>We Are Industrial Company</span></h1>
-              <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="slider_active owl-carousel">
+            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-8">
+                            <div class="slider_text">
+                                <span></span>
+                                <h3>We Create
+                                    your deam
+                                    appartment</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipilit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis.</p>
+                                <a href="#" class="boxed-btn3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="slider-item" style="background-image: url('images/hero_2.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-lg-7 text-center col-sm-12 element-animate">
-              <div class="btn-play-wrap mx-auto"><p class="mb-4"><a href="https://vimeo.com/59256790" data-fancybox data-ratio="2" class="btn-play"><span class="ion ion-ios-play"></span></a></p></div>
-              <h1><span>Create, Enhance and Sustain</span></h1>
-              <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-8">
+                            <div class="slider_text">
+                                <span></span>
+                                <h3>We Create
+                                    your deam
+                                    appartment</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipilit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis.</p>
+                                <a href="#" class="boxed-btn3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-8">
+                            <div class="slider_text">
+                                <span></span>
+                                <h3>We Create
+                                    your deam
+                                    appartment</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipilit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis.</p>
+                                <a href="#" class="boxed-btn3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-      </div>
-
-    </section>
-    <!-- END slider -->
     </div>
-    
-    <section class="section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-bookmark text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Automotive Parts</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>  
+    <!-- slider_area_end -->
 
-          </div>
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-heart text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Maintenance Services</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div> 
-
-          </div>
-          <div class="col-md-6 col-lg-4 element-animate ">
-            <div class="media block-6 d-block text-center">
-              <div class="icon mb-3"><span class="ion-leaf text-primary"></span></div>
-              <div class="media-body">
-                <h3 class="heading">Green Energy</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div> 
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
-
-    <section class="section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2>We Are Reliable Engineering In House</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-lg-4 order-lg-1">
-            <div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('images/about_1.jpg');"></div></div></div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-leaf display-4 text-primary"></span>
-                <h3>Green Energy</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
+    <!-- about_area_start  -->
+    <div class="about_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="about_exp d-flex align-items-center justify-content-center">
+                        <div class="about_exp_inner_upper d-flex align-items-center justify-content-center">
+                            <div class="about_exp_inner text-center">
+                                <span>10</span>
+                                <p>Years of Exprince</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_info pl-70">
+                        <div class="section_title mb-55">
+                            <h3>We are Hus <br>
+                                <span>Realestate Company</span></h3>
+                            <div class="devider">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="info_inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipisicing elit, sed do</li>
+                                <li>Eiusmod tempor incididunt ut labore</li>
+                                <li>Ad minim veniam, quis nostrud.</li>
+                            </ul>
+                            <div class="customer_info d-flex">
+                                <div class="single_info d-flex align-items-baseline">
+                                    <span class="counter">120</span>
+                                    <p>Buildings</p>
+                                </div>
+                                <div class="single_info d-flex align-items-baseline">
+                                    <span ><span class="counter">500</span>+</span>
+                                    <p>Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-android-bulb display-4 text-primary"></span>
-                <h3>Precision Mechanics</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-
-          </div>
-          
-          <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3" >
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-alert-circled display-4 text-primary"></span>
-                <h3>Construction Machines</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-
-            <div class="feature-1 d-md-flex">
-              <div class="align-self-center">
-                <span class="ion ion-android-happy display-4 text-primary"></span>
-                <h3>Reliable and Stable</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-              </div>
-            </div>
-
-          </div>
-
         </div>
-      </div>
-    </section>
-
-    
-    <section class="section element-animate">
-      <div class="container">
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-7 order-md-2">
-            <div class=""><div class="frame"><img src="images/about_2.jpg" alt="Image" class="img-fluid"></div></div>
-          </div>
-          <div class="col-md-5 pr-md-5 mb-5">
-            <div class="block-41">
-              <h2 class="block-41-heading mb-5">Create, Enhance and Sustain</h2>
-              <div class="block-41-text">
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-
-   
-
-    <section class="section border-t pb-0">
-      <div class="container">
-        <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Our Latest Projects</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row no-gutters">
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Ducting Design in Colorado</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Tanks Project In California</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Structural Design in New York</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Stacks Design</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Intercate Custom</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="col-md-4 element-animate">
-            <a href="project-single.html" class="link-thumbnail">
-              <h3>Banker Design</h3>
-              <span class="ion-plus icon"></span>
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-        </div>
-        
-      </div>
-    </section>
-    <!-- END section -->
-
-    <section class="section bg-light block-11">
-      <div class="container"> 
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Happy Clients</h2>
-          </div>
-        </div>
-        <div class="nonloop-block-11 owl-carousel">
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">Companies Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_2.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">Joshua Darren</h2>
-                    <span class="meta">Companies Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">Companies Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
-          </div>
-
-          <div class="item">
-            <div class="block-33 h-100">
-                <div class="vcard d-flex mb-3">
-                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
-                  <div class="name-text align-self-center">
-                    <h2 class="heading">John Smith</h2>
-                    <span class="meta">Companies Client</span>
-                  </div>
-                </div>
-                <div class="text">
-                  <blockquote>
-                    <p>&rdquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &ldquo;</p>
-                  </blockquote>
-                </div>
-              </div>
-          </div>
-          
-        </div>
-      </div>
     </div>
-    <!-- END .block-4 -->
-    </section>
+    <!-- about_area_end  -->
 
-    <section class="section blog">
-      <div class="container">
-
-        <div class="row justify-content-center mb-5 element-animate">
-          <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Blog Posts</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-
-            <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="single.html" class="mr-5"><img src="images/img_2.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="single.html">Separated they live in Bookmarksgrove right</a></h3>
-                <p><a href="single.html" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
+    <!-- our_facilitics_area_start  -->
+    <div class="our_facilitics_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center white_title mb-80">
+                        <h3>Our Facilities</h3>
+                        <div class="devider">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="single.html" class="mr-5"><img src="images/img_3.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="single.html">Separated they live in Bookmarksgrove right</a></h3>
-                <p><a href="single.html" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature text-center">
+                        <div class="icon">
+                            <i class="flaticon-sketch"></i>
+                        </div>
+                        <h3>Planning Stage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature text-center">
+                        <div class="icon">
+                            <i class="flaticon-hotel"></i>
+                        </div>
+                        <h3>Planning Stage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature text-center">
+                        <div class="icon">
+                            <i class="flaticon-headset"></i>
+                        </div>
+                        <h3>Planning Stage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
             </div>
-
-
-          </div>
-          <div class="col-md-6">
-            <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="single.html" class="mr-5"><img src="images/img_2.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="single.html">Separated they live in Bookmarksgrove right</a></h3>
-                <p><a href="single.html" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
+        </div>
+    </div>
+    <!-- our_facilitics_area_end  -->
+    
+    <!-- property_certificates_start  -->
+    <div class="property_certificates">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="section_title">
+                        <h3>Property
+                            <span>Certificates</span></h3>
+                        <div class="devider">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="certificate_listing d-flex justify-content-between align-items-center">
+                        <div class="single_list">
+                            <div class="thumb">
+                                <img src="img/certificates/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single_list">
+                            <div class="thumb">
+                                <img src="img/certificates/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="single_list">
+                            <div class="thumb">
+                                <img src="img/certificates/3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+    <!-- property_certificates_end  -->
 
-            <div class="media mb-4 d-md-flex d-block element-animate">
-              <a href="single.html" class="mr-5"><img src="images/img_3.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
-              <div class="media-body">
-                <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="single.html">Separated they live in Bookmarksgrove right</a></h3>
-                <p><a href="single.html" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
-              </div>
+
+    <!-- appertment_area_start  -->
+    <div class="appertment_area">
+        <div class="appertment_active owl-carousel">
+            <div class="single_appertment">
+                <div class="thumb">
+                    <img src="img/appertment/1.png" alt="">
+                </div>
+                <div class="appertment_info">
+                    <span>$35.000</span>
+                    <a href="#">
+                        <h5>Colorful little aprtment</h5>
+                    </a>
+                    <ul>
+                        <li>2BD</li>
+                        <li>2BA</li>
+                        <li>920 SF</li>
+                    </ul>
+                </div>
             </div>
+            <div class="single_appertment">
+                <div class="thumb">
+                    <img src="img/appertment/2.png" alt="">
+                </div>
+                <div class="appertment_info">
+                    <span>$35.000</span>
+                    <a href="#">
+                        <h5>Colorful little aprtment</h5>
+                    </a>
+                    <ul>
+                        <li>2BD</li>
+                        <li>2BA</li>
+                        <li>920 SF</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="single_appertment">
+                <div class="thumb">
+                    <img src="img/appertment/3.png" alt="">
+                </div>
+                <div class="appertment_info">
+                    <span>$35.000</span>
+                    <a href="#">
+                        <h5>Colorful little aprtment</h5>
+                    </a>
+                    <ul>
+                        <li>2BD</li>
+                        <li>2BA</li>
+                        <li>920 SF</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="single_appertment">
+                <div class="thumb">
+                    <img src="img/appertment/1.png" alt="">
+                </div>
+                <div class="appertment_info">
+                    <span>$35.000</span>
+                    <a href="#">
+                        <h5>Colorful little aprtment</h5>
+                    </a>
+                    <ul>
+                        <li>2BD</li>
+                        <li>2BA</li>
+                        <li>920 SF</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="single_appertment">
+                <div class="thumb">
+                    <img src="img/appertment/2.png" alt="">
+                </div>
+                <div class="appertment_info">
+                    <span>$35.000</span>
+                    <a href="#">
+                        <h5>Colorful little aprtment</h5>
+                    </a>
+                    <ul>
+                        <li>2BD</li>
+                        <li>2BA</li>
+                        <li>920 SF</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="single_appertment">
+                <div class="thumb">
+                    <img src="img/appertment/3.png" alt="">
+                </div>
+                <div class="appertment_info">
+                    <span>$35.000</span>
+                    <a href="#">
+                        <h5>Colorful little aprtment</h5>
+                    </a>
+                    <ul>
+                        <li>2BD</li>
+                        <li>2BA</li>
+                        <li>920 SF</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- appertment_area_end  -->
+    
+    <!-- testimonial_area  -->
+    <div class="testimonial_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="testmonial_active owl-carousel">
+                        <div class="single_carousel">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-9">
+                                    <div class="single_testmonial text-center">
+                                        <div class="author_thumb">
+                                            <img src="img/testmonial/author.png" alt="">
+                                        </div>
+                                        <div class="testmonial_author">
+                                            <h3>Margaret Lawson</h3>
+                                            <span>Creative Director</span>
+                                        </div>
+                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_carousel">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-9">
+                                    <div class="single_testmonial text-center">
+                                        <div class="author_thumb">
+                                            <img src="img/testmonial/author2.png" alt="">
+                                        </div>
+                                        <div class="testmonial_author">
+                                            <h3>Margaret Lawson</h3>
+                                            <span>Creative Director</span>
+                                        </div>
+                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_carousel">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-9">
+                                    <div class="single_testmonial text-center">
+                                        <div class="author_thumb">
+                                            <img src="img/testmonial/author2.png" alt="">
+                                        </div>
+                                        <div class="testmonial_author">
+                                            <h3>Margaret Lawson</h3>
+                                            <span>Creative Director</span>
+                                        </div>
+                                        <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /testimonial_area  -->
+    <!-- quotation_area_start  -->
+    <div class="quotation_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="quotation_text d-flex align-items-center justify-content-between">
+                        <div class="quotation_info">
+                            <h3>Get a free <br>
+                                quotation Today!</h3>
+                                <p>Have any questions in mind?</p>
+                            <a href="#" class="boxed-btn3">Contact Us</a>
+                        </div>
+                        <div class="sayhello d-flex align-items-center">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="num">
+                                <span>say Hello,</span>
+                                <h3>+44 563 986 4785 </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-          </div>
+    <!-- our_latest_news_area_Start  -->
+    <div class="our_latest_news_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-80">
+                        <h3>Our Latest News</h3>
+                        <div class="devider">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="news_active owl-carousel">
+                        <div class="single_news">
+                            <div class="thumb">
+                                <a href="#">
+                                    <img src="img/news/1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="news_info d-flex">
+                                <div class="date">
+                                    <p><span>24</span> <br>
+                                        Nov</p>
+                                </div>
+                                <div class="news_meta">
+                                    <span>Porperties</span>
+                                    <a href="#"><h3>Footprints in Time:
+                                        House in Kurashiki, Japan</h3></a>
+                                    <a class="read_more" href="#">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_news">
+                            <div class="thumb">
+                                <a href="#">
+                                    <img src="img/news/2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="news_info d-flex">
+                                <div class="date">
+                                    <p><span>24</span> <br>
+                                        Nov</p>
+                                </div>
+                                <div class="news_meta">
+                                    <span>Porperties</span>
+                                    <a href="#">
+                                        <h3>Footprints in Time:
+                                            House in Kurashiki, Japan</h3>
+                                    </a>
+                                    <a class="read_more" href="#">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-    <section class="section bg-primary">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-8">
-            <h2 class="text-white mb-0">Create, Enhance and Sustain</h2>
-            <p class="text-white lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .</p>
-          </div>
-          <div class="col-lg-4 text-lg-right">
-            <a href="https://free-template.co/" class="btn btn-outline-white px-4 py-3">Download This Template</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4 mb-5">
-            <h3>About Us</h3>
-            <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .</p>
-            <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            </ul>
+    </div>
+    <!-- our_latest_news_area_end  -->
 
-          </div>
-          <div class="col-md-5 mb-5 pl-md-5">
-            <h3>Contact Info</h3>
-            <ul class="list-unstyled footer-link">
-              <li class="d-block">
-                <span class="d-block">Address:</span>
-                <span >34 Street Name, City Name Here, United States</span></li>
-              <li class="d-block"><span class="d-block">Telephone:</span><span >+1 242 4942 290</span></li>
-              <li class="d-block"><span class="d-block">Email:</span><span >info@yourdomain.com</span></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Quick Links</h3>
-            <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-          
-          </div>
+    <!-- footer_start  -->
+    <footer class="footer footer_bg_1">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget ">
+                            <h3 class="footer_title">
+                                About Us
+                            </h3>
+                            <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
+                            <div class="footer_logo">
+                                <a href="#">
+                                    <img src="img/footer_logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget ">
+                            <h3 class="footer_title">
+                                Contact Info
+                            </h3>
+                            <p>Address :Your address goes
+                                here, your demo address.</p>
+                            <ul>
+                                <li><a href="#">Phone : +8880 44338899</a></li>
+                                <li><a href="#">Email : info@colorlib.com</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget ">
+                            <h3 class="footer_title">
+                                Important Link
+                            </h3>
+                            <ul>
+                                <li><a href="#">View Project</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Proparties</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Newsletter
+                            </h3>
+                            <p class="newsletter_text">
+                                Heaven fruitful doesn't over lesser in days. Appear creeping seasons
+                            </p>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit"> <i class="fa fa-paper-plane"></i> </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-12 text-md-center text-left">
-             <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-              with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
-                class="text-primary">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p class="copy_right">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="socail_links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-behance"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
-    <!-- END footer -->
+    <!-- footer_end  -->
 
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/slick.min.js"></script>
+   
+
+    
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
 
     <script src="js/main.js"></script>
-    
-  </body>
+
+</body>
+
 </html>
